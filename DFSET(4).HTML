@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>Red Team – Professional PC Build (Updated)</title>
+<style>
+    body {
+        background: #0a0a0a;
+        color: #eaeaea;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: #ff0033;
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+    .item {
+        background: #111;
+        border: 1px solid #222;
+        border-radius: 14px;
+        padding: 20px;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 12px #ff003333;
+        transition: 0.3s;
+    }
+    .item:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 15px #ff003355;
+    }
+    .item img {
+        width: 170px;
+        height: 170px; /* ارتفاع ثابت برای نظم بیشتر */
+        object-fit: contain; /* حفظ نسبت تصویر */
+        border-radius: 10px;
+        margin-left: 20px;
+        background: #fff; /* پس زمینه سفید برای دیده شدن بهتر قطعات */
+        padding: 6px;
+        border: 1px solid #333;
+    }
+    .name {
+        font-size: 20px;
+        font-weight: bold;
+        color: #ff3355;
+        margin-bottom: 10px;
+    }
+    .desc {
+        font-size: 16px;
+        color: #ccc;
+    }
+    .upload-row { margin-top: 10px; }
+    .upload-row input[type=file] { color: #222; }
+</style>
+</head>
+
+<body>
+<h1>⚡ لیست سیستم حرفه‌ای Team Red</h1>
+
+<div class="item">
+    <img src="https://pricespy-75b8.kxcdn.com/product/standard/280/7198376.jpg" alt="Motherboard">
+    <div>
+        <div class="name">مادربرد — ASUS TUF GAMING B650M-Plus (B850 Ready)</div>
+        <div class="desc">نسل جدید چیپست AMD؛ مناسب برای پردازنده‌های X3D و اورکلاک.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://media.ldlc.com/r705/ld/products/00/05/83/89/LD0005838906_1.jpg" alt="GPU">
+    <div>
+        <div class="name">کارت گرافیک — GeForce RTX 3080 Ti Phoenix</div>
+        <div class="desc">قدرت عالی برای GPU cracking و پردازش‌های سنگین.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://cdn.idealo.com/folder/Product/205072/3/205072344/s4_produktbild_gross/amd-ryzen-7-9800x3d-tray.jpg" alt="CPU">
+    <div>
+        <div class="name">پردازنده — AMD Ryzen 9 7950X3D</div>
+        <div class="desc">قوی‌ترین CPU گیمینگ/عملکردی AMD با کش 3D.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://cdn.idealo.com/folder/Product/203002/4/203002475/s4_produktbild_gross/corsair-vengeance-rgb-64-go-kit-ddr5-6000-cl30-cmh64gx5m2b6000z30.jpg" alt="RAM">
+    <div>
+        <div class="name">رم — Corsair Vengeance RGB 64GB DDR5</div>
+        <div class="desc">سرعت فوق‌العاده بالا مخصوص بارهای امنیتی و VM.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://media.ldlc.com/r705/ld/products/00/05/97/31/LD0005973115.jpg" alt="SSD">
+    <div>
+        <div class="name">حافظه SSD — Samsung 990 Pro 2TB NVMe</div>
+        <div class="desc">پرسرعت‌ترین SSD سامسونگ برای عملیات فورنزیک و کرکینگ.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://www.alternate.fr/p/600x600/2/3/Seagate_IronWolf_Pro_16_To__Disque_dur@@1875132.jpg" alt="HDD">
+    <div>
+        <div class="name">هارد — Seagate IronWolf 16TB</div>
+        <div class="desc">مخصوص ذخیره‌سازی سنگین، دیتاست و ایمیج‌های VM.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://m.media-amazon.com/images/I/61uwe-fLDmL._AC_SX450_.jpg" alt="Monitor">
+    <div>
+        <div class="name">مانیتور — Samsung Odyssey G5 32″ 165Hz</div>
+        <div class="desc">مناسب تحلیل لاگ، داشبوردها و محیط‌های گسترده.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://amvajpc.ir/wp-content/uploads/2021/09/ibOeGJUVJ14m39xU.jpg" alt="PSU">
+    <div>
+        <div class="name">پاور — GreatWall/Corsair 1600W Modular</div>
+        <div class="desc">قدرت بالا مخصوص کارت‌های پرمصرف و اورکلاک.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://overclocking.com/wp-content/medias/2022/12/deepcool-lt720-1-tests-hardware-tests-coolings-ventirads-aio-et-compagnie-overclocking-711x400.jpg" alt="Cooler">
+    <div>
+        <div class="name">خنک‌کننده — DeepCool LT720 Liquid</div>
+        <div class="desc">خنک‌سازی حرفه‌ای مخصوص CPUهای سری X3D.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://www.terabyteco.com/websiteimages/productimages/2289898901.JPG" alt="Case">
+    <div>
+        <div class="name">کیس — MasterTech MEGABOX</div>
+        <div class="desc">کیس بزرگ با مدیریت کابل‌کشی و فضای تهویه قوی.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://www.getic.fr/images/catalogue/3195/awus036acsnc_deviceconn-60f12d31b9eba-medium.jpg" alt="ALFA AWUS036ACS">
+    <div>
+        <div class="name">کارت شبکه — Alfa AWUS036ACS</div>
+        <div class="desc">مخصوص عملیات WiFi، مانیتورینگ و Packet Injection.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://torobshop.com/uploads/products//61RX7-vJtzL._AC_SL1500_.jpg" alt="ALFA AWUS036ACS">
+    <div>
+        <div class="name">کارت شبکهALFA AWUS036ACH</div>
+        <div class="desc">چی می‌شود؟ می‌توانید در monitor mode تمام frameهای رادیویی اطراف را ببینید — management, control و data frames.
+
+مثال عملی: اجرای airodump-ng برای جمع‌آوری BSSIDها، SSIDها و ضبط فایل handshake برای پسورد-کرکینگ.
+
+چرا این مهم است؟ لازم است برای کشف شبکه‌های هدف، شناسایی کانال و گرفتن </div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://image.torob.com/base/images/uq/zD/uqzDDk2uf5KRUpod.jpg" alt="ALFA AWUS036ACS">
+    <div>
+        <div class="name">کارت شبکه ALFA AWUS036NHA</div>
+        <div class="desc">مخصوص عملیاتچی می‌شود؟ آداپتور می‌تواند فریم‌های ساخته‌شده را ارسال کند (deauth frames، probe requests، crafted management frames).
+
+مثال عملی: اجرای حمله Deauthentication (aireplay-ng --deauth) روی STA مربوط به AP هدف تا کلاینت را مجبور کنید handshake را دوباره بفرستد — سپس آن handshake را ضبط کنید. یا ساختن فریم‌هایی برای فورس کردن client به اتصال به AP جعلی</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://rpcoit.com/contentsite/upload/productimage/4910/keyboard-tsco-combo-cable-8049-586111828.webp" alt="Keyboard">
+    <div>
+        <div class="name">کیبورد — Tsco TK8049</div>
+        <div class="desc">کیبورد کامل و خوش‌دست برای کارهای طولانی.</div>
+    </div>
+</div>
+
+<div class="item">
+    <img src="https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_SL1500_.jpg" alt="Mouse">
+    <div>
+        <div class="name">موس — Tsco TM 2018N</div>
+        <div class="desc">موس با دقت مناسب برای کارهای روزانه و امنیتی.</div>
+    </div>
+</div>
+
+<script>
+// Preview uploaded image for ACH
+document.addEventListener('DOMContentLoaded', function(){
+  var fileAch = document.getElementById('file_ach');
+  var urlAch = document.getElementById('url_ach');
+  var imgAch = document.getElementById('img_ach');
+  if(fileAch){
+    fileAch.addEventListener('change', function(e){
+      const f = e.target.files[0];
+      if(!f) return;
+      const url = URL.createObjectURL(f);
+      imgAch.src = url;
+    });
+  }
+  if(urlAch){
+    urlAch.addEventListener('change', function(e){
+      const v = e.target.value.trim();
+      if(v) imgAch.src = v;
+    });
+  }
+
+  var fileNha = document.getElementById('file_nha');
+  var urlNha = document.getElementById('url_nha');
+  var imgNha = document.getElementById('img_nha');
+  if(fileNha){
+    fileNha.addEventListener('change', function(e){
+      const f = e.target.files[0];
+      if(!f) return;
+      const url = URL.createObjectURL(f);
+      imgNha.src = url;
+    });
+  }
+  if(urlNha){
+    urlNha.addEventListener('change', function(e){
+      const v = e.target.value.trim();
+      if(v) imgNha.src = v;
+    });
+  }
+});
+</script>
+
+</body>
+</html>
+
