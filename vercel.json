@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/DFSET(4).html"
+      "destination": "/DFSET4.html"
     }
   ]
 }
